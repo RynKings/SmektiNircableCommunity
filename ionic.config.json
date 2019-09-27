@@ -1,5 +1,7 @@
 {
   "name": "snc",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
