@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'login', loadChildren: './Auth/login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './Auth/register/register.module#RegisterPageModule' },
   { path: 'idcard', loadChildren: './Profile/idcard/idcard.module#IdcardPageModule' },
+  { path: 'berita', loadChildren: './berita/berita.module#BeritaPageModule' },
 ];
 
 @NgModule({
